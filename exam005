@@ -26,6 +26,7 @@ contract Example005 {
       uint result2 = a / b;
       return result2;
     }
+    
   function mul(uint a, uint b) returns (uint) {
       uint result3 = a * b;
       return result3;
