@@ -1,0 +1,39 @@
+pragma solidity ^0.4.11;
+
+contract Example005 {
+  function operation() returns (uint result) {
+    result = sum(11,5);
+  }
+
+  function operation2() returns (uint result2) {
+      result2 = div(20,5);
+  }
+
+  function operation3() returns (uint result3) {
+      result3 = mul(10,20);
+  }
+
+  function operation4() returns (uint result4) {
+      result4 = sub(100,30);
+  }
+
+  function sum(uint a, uint b) returns (uint) {
+      uint result = a + b;
+      return result;
+    }
+
+  function div(uint a, uint b) returns (uint) {
+      uint result2 = a / b;
+      return result2;
+    }
+  function mul(uint a, uint b) returns (uint) {
+      uint result3 = a * b;
+      return result3;
+  }
+
+  function sub(uint a, uint b) returns (uint) {
+      uint result4 = a - b;
+      return result4;
+  }
+    
+}
